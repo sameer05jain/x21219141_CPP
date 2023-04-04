@@ -1,0 +1,10 @@
+.Users {
+    background-color: #1C1D21;
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: white;
+}
+
+.Users-content {
+    margin-top: 5%;
+}

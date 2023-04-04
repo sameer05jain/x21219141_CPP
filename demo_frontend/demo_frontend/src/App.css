@@ -1,0 +1,82 @@
+.App {
+  background-color: #1C1D21;
+  min-height: 100vh;
+  font-family: sans-serif;
+  color: white;
+  /* display: flex; */
+  /* align-items: center; */
+}
+
+.App-header {
+  background-color: #31353D;
+  height: 10vh;
+  /* width: 100vw; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-logo {
+  height: 7vh;
+}
+
+.App-name {
+  font-size: 50px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.App-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.users {
+  margin-left: auto;
+}
+
+.account {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 17%;
+  color: black;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Cardcontainer {
+  padding: 2px 16px;
+}
+
+.cvd {
+  width: 48% !important;
+}
+
+.Vd {
+  margin-left: 4%;
+}
+
+.No-users {
+  margin-top: 20%;
+}

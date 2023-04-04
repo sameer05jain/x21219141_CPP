@@ -1,0 +1,10 @@
+.Accounts {
+    background-color: #1C1D21;
+    min-height: 100vh;
+    font-family: sans-serif;
+    color: white;
+  }
+
+.Accounts-content {
+    margin-top: 10%;
+}

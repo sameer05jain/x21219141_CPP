@@ -1,0 +1,62 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.modal-content {
+    width: 50%;
+    height: auto;
+}
+
+.modal-header, .modal-footer {
+    padding: 10px;
+    background-color: #00ADB5;
+    border: 0 !important;
+}
+
+.modal-title {
+    margin: 0;
+    color: #EEE;
+}
+
+.modal-body {
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    background-color: #2b2f36;
+}
+
+h2 {
+    margin-left: 1rem;
+}
+
+.modal-body .right {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+}
+
+.modal-body .left {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    color: #EEEEEE;
+}
+
+.modal-body .right  h2 {
+    color: #EEEEEE;
+}
+
+.accountUp {
+    background-color: #2b2f36;
+}
